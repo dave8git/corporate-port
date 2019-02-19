@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'wisdom_scriptregular';
+  src: url("wisdomscript-regular-webfont.woff2") format("woff2"), url("wisdomscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'wisdom_scriptregular', Arial, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
