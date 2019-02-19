@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: "ws";
+    src: url(font/WisdomScript-Regular.ttf) format("truetype");
+}
+h1 {
+    font-family: 'ws', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
