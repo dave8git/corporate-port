@@ -14,12 +14,10 @@
 
 body {
   font-family: sans-serif;
-  font-family: 'wisdom_scriptregular', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.4;
   color: #fff;
   background: #333;
-  margin-right: 10%;
-  margin-left: 10%;
 }
 
 a {
@@ -35,11 +33,6 @@ p {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
-}
-
-.container-padding {
-  padding-left: 40%;
-  padding-right: 10%;
 }
 
 .logo-text {
@@ -134,10 +127,38 @@ p {
   padding: 0 2rem;
   /* Overlay */
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1900;
+}
+
+/* Services */
+#services .services-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.serv-icon-text-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+}
+
+.fa-shopping-basket, .fa-laptop-code, .fa-unlock-alt {
+  color: #FDCF33;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
 }
 /*# sourceMappingURL=style.css.map */
