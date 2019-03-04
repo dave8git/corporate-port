@@ -34,13 +34,12 @@ p {
 #navbar {
   display: -ms-flexbox;
   display: flex;
+  color: #fff;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  color: #fff;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  z-index: 2;
+  z-index: 2000;
   padding: 1rem;
 }
 
@@ -50,5 +49,47 @@ p {
   -ms-flex-align: center;
       align-items: center;
   list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: .75rem;
+  margin: 0 .25rem;
+}
+
+#navbar ul li a:hover {
+  background: #FDCF33;
+  border-radius: 5px;
+}
+
+/* Hero */
+#hero {
+  background: #333 url("https://images.pexels.com/photos/374811/pexels-photo-374811.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  margin-top: -84px;
+}
+
+#hero .hero-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: yellow;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1900;
 }
 /*# sourceMappingURL=style.css.map */
