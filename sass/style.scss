@@ -1,12 +1,47 @@
+/* General styles */ 
 @font-face {
     font-family: 'wisdom_scriptregular';
     src: url('wisdomscript-regular-webfont.woff2') format('woff2'),
          url('wisdomscript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
 }
 body { 
+    font-family: sans-serif;
     font-family: 'wisdom_scriptregular', Arial, sans-serif; 
-    color: yellow; 
+    
+}
+a {
+    text-decoration: none; 
+}
+p {
+    margin: 0.75rem 0; 
+}
+
+/* Utility classes */ 
+.logo-text {
+    color: #FDCF33;
+}
+/* Navbar */
+#navbar {
+    display: flex; 
+    position: sticky;
+    top: 0;  
+    color: #fff;
+    justify-content: space-between; 
+    z-index: 2;  
+    padding: 1rem;
+}
+#navbar ul {
+    display: flex; 
+    align-items: center;
+    list-style: none; 
+}
+#navbar ul li a {
+
 }
