@@ -205,6 +205,10 @@ a {
   margin-left: 60px;
 }
 
+.polaroid-images:nth-child(1) {
+  margin-left: 0px;
+}
+
 .polaroid-images h3 {
   padding-top: 20px;
 }
