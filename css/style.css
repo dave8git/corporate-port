@@ -24,10 +24,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  margin: 0.75rem 0;
-}
-
 /* Utility classes */
 .container {
   max-width: 1200px;
@@ -146,19 +142,75 @@ p {
       align-items: center;
   background-color: #fff;
   color: #000;
+  padding-top: 80px;
 }
 
 .serv-icon-text-wrapper {
   display: -ms-flexbox;
   display: flex;
   padding: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .fa-shopping-basket, .fa-laptop-code, .fa-unlock-alt {
   color: #FDCF33;
-  display: inline-block;
-  border-radius: 60px;
-  box-shadow: 0px 0px 2px #888;
-  padding: 0.5em 0.6em;
+  border-radius: 50%;
+  padding: 0.5em 0.5em;
+  font-size: 36px;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.serv-border-wrapper {
+  border: 3px solid #FDCF33;
+  border-radius: 50%;
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 75px;
+  height: 75px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/* Polaroids */
+.polaroids-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  background-color: #F3F3F3;
+  color: #000;
+}
+
+.polaroid-images {
+  background: white;
+  margin: 0 0px 30px;
+  padding: 0px 0px 25px;
+  text-align: center;
+  z-index: 0;
+  position: relative;
+  height: 495px;
+}
+
+.polaroid-images h3 {
+  padding-top: 20px;
+}
+
+.polaroid-items {
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
