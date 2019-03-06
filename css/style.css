@@ -258,12 +258,12 @@ a {
 }
 
 .circles-padding-right {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-right: 400px;
 }
 
 .circles-padding-left {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-left: 360px;
 }
 
@@ -276,15 +276,45 @@ a {
 }
 
 .vertical-line::before {
-  width: 4px;
-  height: 500px;
-  background-color: #000;
+  width: 2px;
+  height: 1040px;
+  background-color: #f3f3f3;
   content: " ";
   position: absolute;
-  right: 478px;
+  right: 477px;
 }
 
 .circles-picture {
   z-index: 1;
+}
+
+/* team */
+#team .team-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.team-photo-group-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-img-group {
+  padding: 40px;
+}
+
+.team-img-group img {
+  border-radius: 50%;
+  border: 8px solid #fff;
 }
 /*# sourceMappingURL=style.css.map */
