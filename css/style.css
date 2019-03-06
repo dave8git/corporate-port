@@ -200,7 +200,6 @@ a {
   margin: 0 0px 30px;
   padding: 0px 0px 25px;
   text-align: center;
-  z-index: 0;
   height: 420px;
   margin-left: 60px;
 }
@@ -216,5 +215,76 @@ a {
 .polaroid-items {
   display: -ms-flexbox;
   display: flex;
+}
+
+/* Circles */
+.circles-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+.circles-row-content {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.circles-paragraphs {
+  width: 300px;
+  margin: 0 40px;
+}
+
+.t-align-right {
+  text-align: right;
+}
+
+.t-align-left {
+  text-align: left;
+}
+
+.circles-row-content img {
+  border-radius: 50%;
+  border: 8px solid #f3f3f3;
+  z-index: 2000;
+}
+
+.circles-padding-right {
+  padding-top: 100px;
+  padding-right: 400px;
+}
+
+.circles-padding-left {
+  padding-top: 100px;
+  padding-left: 360px;
+}
+
+.vis-hidden {
+  visibility: hidden;
+}
+
+.vertical-line {
+  position: relative;
+}
+
+.vertical-line::before {
+  width: 4px;
+  height: 500px;
+  background-color: #000;
+  content: " ";
+  position: absolute;
+  right: 478px;
+}
+
+.circles-picture {
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
