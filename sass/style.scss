@@ -24,9 +24,9 @@ a {
 
 /* Utility classes */ 
 .container {
-	max-width: 1200px;
-	width: 80%;
-	margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
 }
 .logo-text {
     color: #FDCF33;
@@ -389,4 +389,15 @@ input[type=text], select, textarea {
 }
 #footer p {
     color: #000;
+}
+.icon-btn {
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    color: #fff;
+    border: 0px;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.5s;
 }
