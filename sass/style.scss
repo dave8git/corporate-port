@@ -83,6 +83,7 @@ a {
     background: #FDCF33;
     border-radius: 5px; 
 }
+
 /* Hero */ 
 #hero {
     background: #333 url('https://images.pexels.com/photos/374811/pexels-photo-374811.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center center/cover; 
@@ -315,7 +316,7 @@ a {
     bottom: -400px;  
     z-index: 0;  
 }
-#form h1, p {
+#form h1 {
     color: #fff;
 }
 .inner-content {
@@ -385,19 +386,61 @@ input[type=text], select, textarea {
     align-items: center;
     height: 100%; 
     background-color: #fff;
-    color: #000;
+    color: #fff;
 }
 #footer p {
     color: #000;
 }
-.icon-btn {
-    height: 75px;
-    width: 75px;
-    margin: 5px;
-    color: #fff;
-    border: 0px;
-    border-radius: 50%;
-    font-size: 40px;
-    cursor: pointer;
-    transition: 0.5s;
+.circle-around-icon {
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+    background-color: #000;
 }
+.fa-twitter-white {
+    color: #fff;
+}
+.fa-facebook-white {
+    color: #fff; 
+}
+.fa-pinterest-white {
+    color: #fff;
+}
+.fa-google-pluse-white {
+    color: #fff;
+}
+@media (max-width: 767px){
+    #navbar ul li a {
+        display: block;
+    }
+    #navbar {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        position: absolute; 
+        top: 0;
+    }
+    .serv-icon-text-wrapper {
+        flex-direction: column;
+        
+    }
+    .polaroid-items {
+        flex-wrap: wrap;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .polaroid-images {
+        margin-left: 0;
+    }
+    .team-photo-group-wrapper {
+        flex-direction: column;
+    }
+}
+
