@@ -563,6 +563,15 @@ input[type=text], select, textarea {
         align-items: center;
     position: absolute;
     top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  #navbar ul {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  #hero .hero-content {
+    padding-top: 320px;
   }
   .serv-icon-text-wrapper {
     -ms-flex-direction: column;
@@ -609,6 +618,7 @@ input[type=text], select, textarea {
   #logos img {
     display: block;
     padding: 20px;
+    width: 100%;
   }
   #logos .logos-content {
     padding: 40px;
@@ -620,6 +630,10 @@ input[type=text], select, textarea {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+  }
+  .text-under {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
