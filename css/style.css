@@ -584,5 +584,42 @@ input[type=text], select, textarea {
     -ms-flex-direction: column;
         flex-direction: column;
   }
+  .form-wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .form-right-wrapper {
+    margin-left: 0px;
+  }
+  .circles-padding-right {
+    padding: 0px;
+  }
+  .circles-padding-left {
+    padding: 0px;
+  }
+  .circles-picture {
+    display: none;
+  }
+  .t-align-right {
+    text-align: center;
+  }
+  .t-align-left {
+    text-align: center;
+  }
+  #logos img {
+    display: block;
+    padding: 20px;
+  }
+  #logos .logos-content {
+    padding: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

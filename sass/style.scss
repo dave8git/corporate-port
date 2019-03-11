@@ -442,5 +442,37 @@ input[type=text], select, textarea {
     .team-photo-group-wrapper {
         flex-direction: column;
     }
+    .form-wrapper {
+        flex-direction: column; 
+    }
+    .form-right-wrapper {
+        margin-left: 0px; 
+    }
+    .circles-padding-right {
+        padding: 0px; 
+    }
+    .circles-padding-left {
+        padding: 0px; 
+    }
+    .circles-picture {
+        display: none;
+    }
+    .t-align-right {
+        text-align: center; 
+    }
+    .t-align-left {
+        text-align: center;
+    }
+    #logos img {
+        display: block; 
+        padding: 20px; 
+    }
+    #logos .logos-content {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
