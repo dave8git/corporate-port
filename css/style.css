@@ -691,6 +691,12 @@ textarea {
   color: #fff;
 }
 
+@media (max-width: 1340px) {
+  .text-under {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   #navbar ul li a {
     display: block;
