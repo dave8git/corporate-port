@@ -705,7 +705,7 @@ textarea {
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1080px) {
   #navbar ul li a {
     display: block;
   }
