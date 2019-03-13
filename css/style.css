@@ -1,7 +1,7 @@
 /* General styles */
 @font-face {
   font-family: 'wisdom_scriptregular';
-  src: url("/fonts/WisdomScript-Regular.ttf") format("woff2"), url("wisdomscript-regular-webfont.woff") format("woff");
+  src: url("/fonts/WisdomScript-Regular.ttf") format("woff2"), url("/fonts/WisdomScript-Regular.otf") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -10,6 +10,27 @@
   font-family: 'kreon_regular';
   src: url("/fonts/Kreon-Light.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nine_thyssen';
+  src: url("/fonts/9thyssen.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '9thysseni';
+  src: url("/fonts/9thysseni.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'nine_thyssen_bold';
+  src: url("/fonts/9thyssen.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -75,6 +96,22 @@ a {
   color: #fff;
 }
 
+.section-padding-top-40 {
+  padding-top: 40px;
+}
+
+.margin-left-40 {
+  margin-left: 40px;
+}
+
+.margin-right-40 {
+  margin-right: 40px;
+}
+
+.width300 {
+  max-width: 300px;
+}
+
 /** Fonts **/
 .roboto-slab {
   font-family: 'Roboto Slab', serif;
@@ -82,6 +119,20 @@ a {
 
 .montserrat {
   font-family: 'Montserrat';
+}
+
+.nine_thysseni {
+  font-family: '9thysseni';
+  font-size: 20px;
+  font-style: italic;
+  color: grey;
+}
+
+.nine_thyssen {
+  font-family: '9thysseni';
+  font-size: 20px;
+  font-style: italic;
+  color: grey;
 }
 
 .paragraph-grey-text {
@@ -93,6 +144,12 @@ a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 40px;
+}
+
+.heading-small {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 17px;
 }
 
 /* Navbar */
@@ -169,7 +226,6 @@ a {
       align-items: center;
   background-color: #fff;
   color: #000;
-  padding-top: 80px;
 }
 
 .serv-icon-text-wrapper {
@@ -204,6 +260,11 @@ a {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  margin-bottom: 20px;
+}
+
+#services i {
+  padding-bottom: 20px;
 }
 
 /* Polaroids */
@@ -242,6 +303,7 @@ a {
 .polaroid-items {
   display: -ms-flexbox;
   display: flex;
+  margin-top: 40px;
 }
 
 .polaroids img {
@@ -364,7 +426,6 @@ a {
   height: 100%;
   background-color: #f3f3f3;
   color: #000;
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -665,6 +726,9 @@ input[type=text], select, textarea {
     -ms-flex-direction: column;
         flex-direction: column;
   }
+  .padding-bottom-40 {
+    padding-bottom: 40px;
+  }
   .form-wrapper {
     -ms-flex-direction: column;
         flex-direction: column;
@@ -706,6 +770,13 @@ input[type=text], select, textarea {
   .text-under {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  #footer {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+  .circles-paragraphs {
+    padding-bottom: 45px;
   }
 }
 /*# sourceMappingURL=style.css.map */

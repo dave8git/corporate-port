@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'wisdom_scriptregular';
     src: url('/fonts/WisdomScript-Regular.ttf') format('woff2'),
-         url('wisdomscript-regular-webfont.woff') format('woff');
+         url('/fonts/WisdomScript-Regular.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,6 +10,24 @@
     font-family: 'kreon_regular';
     src: url('/fonts/Kreon-Light.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nine_thyssen';
+    src: url('/fonts/9thyssen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '9thysseni';
+    src: url('/fonts/9thysseni.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'nine_thyssen_bold';
+    src: url('/fonts/9thyssen.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 * {
@@ -66,12 +84,37 @@ a {
     background: #333; 
     color: #fff; 
 }
+.section-padding-top-40 {
+    padding-top: 40px;
+}
+.margin-left-40 {
+    margin-left: 40px;
+}
+.margin-right-40 {
+    margin-right: 40px;
+}
+.width300 {
+    max-width: 300px;
+}
 /** Fonts **/
 .roboto-slab {
     font-family: 'Roboto Slab', serif;
 }
 .montserrat {
     font-family: 'Montserrat';
+}
+.nine_thysseni {
+    font-family: '9thysseni';
+    font-size: 20px;
+    font-style: italic;
+    color: grey; 
+
+}
+.nine_thyssen {
+    font-family: '9thysseni';
+    font-size: 20px;
+    font-style: italic;
+    color: grey; 
 }
 .paragraph-grey-text {
     color: grey; 
@@ -82,6 +125,12 @@ a {
     font-weight: 700; 
     font-size: 40px;
 }
+.heading-small {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900; 
+    font-size: 17px;
+}
+
 /* Navbar */
 #navbar {
     display: flex;  
@@ -138,7 +187,6 @@ a {
     align-items: center;
     background-color: #fff;
     color: #000;
-    padding-top: 80px;
 }
 
 .serv-icon-text-wrapper {
@@ -165,7 +213,13 @@ a {
     height: 75px; 
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
   }
+  #services i {
+    padding-bottom: 20px;
+  }
+
+
 /* Polaroids */ 
 .polaroids-content {
     display: flex;
@@ -193,7 +247,7 @@ a {
 }
 .polaroid-items {
     display: flex;
-    
+    margin-top: 40px;
 }
 .polaroids img {
     width: 100%;
@@ -288,7 +342,6 @@ a {
     height: 100%; 
     background-color: #f3f3f3;
     color: #000;
-    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -342,6 +395,7 @@ a {
   max-height:230px;
   object-fit: cover;
   }
+ 
 /* Logos */
 #logos {
     display: flex;
@@ -508,6 +562,9 @@ input[type=text], select, textarea {
     .team-photo-group-wrapper {
         flex-direction: column;
     }
+    .padding-bottom-40 {
+        padding-bottom: 40px;
+    }
     .form-wrapper {
         flex-direction: column; 
     }
@@ -544,6 +601,12 @@ input[type=text], select, textarea {
     .text-under {
         padding-left: 0px;
         padding-right: 0px;
+    }
+    #footer {
+        flex-direction: column-reverse;
+    }
+    .circles-paragraphs {
+        padding-bottom: 45px;
     }
 }
 
