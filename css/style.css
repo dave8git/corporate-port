@@ -21,8 +21,8 @@
 }
 
 @font-face {
-  font-family: '9thysseni';
-  src: url("/fonts/9thysseni.ttf") format("truetype");
+  font-family: '9thyssei';
+  src: url("/fonts/9thyssei.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
@@ -236,7 +236,9 @@ a {
   padding-bottom: 70px;
 }
 
-.fa-shopping-basket, .fa-laptop-code, .fa-unlock-alt {
+.fa-shopping-basket,
+.fa-laptop-code,
+.fa-unlock-alt {
   color: #FDCF33;
   border-radius: 50%;
   padding: 0.5em 0.5em;
@@ -443,7 +445,8 @@ a {
   border: 8px solid #fff;
 }
 
-.team-img-group h3, p {
+.team-img-group h3,
+p {
   padding-bottom: 10px;
 }
 
@@ -455,7 +458,10 @@ a {
   padding-bottom: 70px;
 }
 
-.fa-twitter, .fa-facebook-f, .fa-google-plus-g, .fa-pinterest-p {
+.fa-twitter,
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-pinterest-p {
   color: #000;
   border-radius: 50%;
   padding: 1em 0.5em;
@@ -582,7 +588,9 @@ a {
   margin-left: 40px;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 470px;
   padding: 17px;
   /* Some padding */
