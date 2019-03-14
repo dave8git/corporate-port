@@ -731,4 +731,13 @@ textarea {
     .circles-paragraphs {
         padding-bottom: 45px;
     }
+    #subject {
+        width: 320px;
+    }
+    input[type=text], select, textarea {
+        width: 320px;
+    }
+    .circles-paragraphs {
+        width: initial;
+    }
 }
